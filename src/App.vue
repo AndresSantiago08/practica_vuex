@@ -1,8 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Inicio</router-link> |
+    <router-link to="/about">Realizar Pedido</router-link>
   </nav>
+  <input type="color">
   <router-view/>
 </template>
 
@@ -17,14 +18,18 @@
 
 nav {
   padding: 30px;
+  margin: -8px;
+  font-size: 21px;
+  text-align: left;
+  background-color: #2c3e50;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ecaf52;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #ecaf52;
 }
 </style>
