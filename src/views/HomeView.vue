@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="pasteleria logo" src="../assets/Pasteleria.png" class="pasteleria">
+  <div class="pasteleria">
+    <img alt="pasteleria logo" src="../assets/Pasteleria.png" >
   </div>
 </template>
 
@@ -23,9 +23,14 @@ export default {
   }
 
   .pasteleria{
-    text-align: left;
-    left: 30px;
-    top: 10px;
+    position: relative;
+    top: 15px;
+  }
+
+  .pasteleria img{
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
   }
 
 </style>
