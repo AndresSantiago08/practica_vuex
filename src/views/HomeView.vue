@@ -2,17 +2,18 @@
   <div class="pasteleria">
     <img alt="pasteleria logo" src="../assets/Pasteleria.png" >
   </div>
+  <ContenidoInicio/>
 </template>
 
 <script>
 // @ is an alias to /src
-
+import ContenidoInicio from "../components/ContenidoInicio.vue";
 
 export default {
   name: 'HomeView',
   components: {
-
-  }
+    ContenidoInicio,
+  },
 }
 </script>
 
