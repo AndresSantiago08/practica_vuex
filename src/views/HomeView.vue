@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="pasteleria logo" src="../assets/Pasteleria.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="pasteleria logo" src="../assets/Pasteleria.png" class="pasteleria">
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+
   }
 }
 </script>
+
+<style>
+
+  body{
+    background-color: #e9dfb9;
+  }
+
+  .pasteleria{
+    text-align: left;
+    left: 30px;
+    top: 10px;
+  }
+
+</style>

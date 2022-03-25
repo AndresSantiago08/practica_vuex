@@ -1,9 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Inicio</router-link> |
-    <router-link to="/about">Realizar Pedido</router-link>
+    <router-link to="/" >Inicio</router-link> |
+    <router-link to="/about" >Realizar Pedido</router-link>
+    <h1>Pastelería Amanecer</h1>
   </nav>
-  <input type="color">
   <router-view/>
 </template>
 
@@ -20,8 +20,9 @@ nav {
   padding: 30px;
   margin: -8px;
   font-size: 21px;
-  text-align: left;
-  background-color: #2c3e50;
+  text-align: right;
+  color: #ecaf52;
+  background-color: #57330a;
 }
 
 nav a {
@@ -30,6 +31,14 @@ nav a {
 }
 
 nav a.router-link-exact-active {
+  color: #e9dfb9;
+}
+
+nav h1{
   color: #ecaf52;
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  top: -4px;
 }
 </style>
