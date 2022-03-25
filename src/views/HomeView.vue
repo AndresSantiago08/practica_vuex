@@ -30,7 +30,7 @@ export default {
 
   .pasteleria img{
     position: relative;
-    width: 150px;
+    width: 10%;
     border-radius: 5px;
   }
 

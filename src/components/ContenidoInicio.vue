@@ -24,7 +24,7 @@
         position: relative;
         margin: 20px;
         border-radius: 10px;
-        width: 1000px;
+        width: 80%;
     }
     div p{
         font-size: 18px;
